@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/mvw-mobile" mode="merge"/>
+    <filter root="/content/mvw-mobile" mode="merge"/>
+    <filter root="/content/dam/mvw-mobile" mode="merge">
+        <exclude pattern="/content/dam/mvw-mobile(/.*)?"/>
+        <include pattern="/content/dam/mvw-mobile/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/mvw-mobile/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/mvw-mobile" mode="merge"/>
+</workspaceFilter>
